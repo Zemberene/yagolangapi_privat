@@ -22,4 +22,4 @@ phases:
       - go test
       - docker build -t git.systementor.se/yacloud/yagolangapi .
       - docker login -u johan.lindhe -p yacloud1 https://git.systementor.se
-      - docker push git.systementor.se/johan.lindhe/yagolangapi 
+      - docker push git.systementor.se/yacloud/yagolangapi 
